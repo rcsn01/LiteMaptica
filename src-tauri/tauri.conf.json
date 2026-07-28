@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "LiteMaptica",
+  "version": "0.1.0",
+  "identifier": "org.litemaptica.desktop",
+  "build": {
+    "beforeDevCommand": "bun run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "bun run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "LiteMaptica",
+        "width": 1380,
+        "height": 860,
+        "minWidth": 920,
+        "minHeight": 640,
+        "resizable": true,
+        "fullscreen": false,
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true
+      }
+    ],
+    "security": { "csp": "default-src 'self'; connect-src ipc: http://ipc.localhost; img-src 'self' asset: http://asset.localhost data:; style-src 'self' 'unsafe-inline'; script-src 'self'" }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["dmg", "app"],
+    "category": "Graphics and Design",
+    "shortDescription": "Evidence-backed Minecraft reconstruction",
+    "longDescription": "Reconstruct evidenced Minecraft structures from video and export validated Litematic schematics.",
+    "macOS": { "minimumSystemVersion": "14.0" }
+  }
+}

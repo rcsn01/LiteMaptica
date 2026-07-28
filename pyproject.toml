@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "litemap-engine"
+version = "0.1.0"
+description = "Local deterministic reconstruction engine for LiteMaptica"
+requires-python = ">=3.11"
+license = { text = "GPL-3.0-only" }
+
+[project.scripts]
+litemap = "litemap_engine.cli:main"
+litemap-engine = "litemap_engine.rpc:main"
+
+[tool.setuptools]
+package-dir = {"" = "engine"}
+
+[tool.setuptools.package-data]
+litemap_engine = ["data/*.json"]

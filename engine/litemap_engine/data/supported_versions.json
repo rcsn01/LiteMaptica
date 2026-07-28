@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "channel": "stable-tested",
+  "versions": [
+    {"id":"1.20","data_version":3463,"litematic_version":6,"litematic_subversion":1},
+    {"id":"1.20.1","data_version":3465,"litematic_version":6,"litematic_subversion":1},
+    {"id":"1.20.2","data_version":3578,"litematic_version":6,"litematic_subversion":1},
+    {"id":"1.20.3","data_version":3698,"litematic_version":6,"litematic_subversion":1},
+    {"id":"1.20.4","data_version":3700,"litematic_version":6,"litematic_subversion":1},
+    {"id":"1.20.5","data_version":3837,"litematic_version":6,"litematic_subversion":1},
+    {"id":"1.20.6","data_version":3839,"litematic_version":6,"litematic_subversion":1},
+    {"id":"1.21","data_version":3953,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.1","data_version":3955,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.2","data_version":4080,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.3","data_version":4082,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.4","data_version":4189,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.5","data_version":4325,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.6","data_version":4435,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.7","data_version":4438,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.8","data_version":4440,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.9","data_version":4554,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.10","data_version":4556,"litematic_version":7,"litematic_subversion":1},
+    {"id":"1.21.11","data_version":4671,"litematic_version":7,"litematic_subversion":1},
+    {"id":"26.1","data_version":4786,"litematic_version":7,"litematic_subversion":1},
+    {"id":"26.1.1","data_version":4788,"litematic_version":7,"litematic_subversion":1},
+    {"id":"26.1.2","data_version":4790,"litematic_version":7,"litematic_subversion":1},
+    {"id":"26.2","data_version":4903,"litematic_version":7,"litematic_subversion":1}
+  ]
+}
