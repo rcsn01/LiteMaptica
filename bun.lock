@@ -5,7 +5,7 @@
     "": {
       "name": "litemaptica",
       "dependencies": {
-        "@moirasia/ui-css": "file:../../packages/ui-css",
+        "@moirasia/ui-css": "file:../../../packages/ui-css",
         "@tauri-apps/api": "^2.8.0",
         "@tauri-apps/plugin-dialog": "^2.4.0",
         "@types/three": "^0.179.0",
@@ -143,7 +143,7 @@
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
 
-    "@moirasia/ui-css": ["@moirasia/ui-css@file:../../packages/ui-css", {}],
+    "@moirasia/ui-css": ["@moirasia/ui-css@file:../../../packages/ui-css", {}],
 
     "@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.0-rc.3", "", {}, "sha512-eybk3TjzzzV97Dlj5c+XrBFW57eTNhzod66y9HrBlzJ6NsCrWCp/2kaPS3K9wJmurBC0Tdw4yPjXKZqlznim3Q=="],
 

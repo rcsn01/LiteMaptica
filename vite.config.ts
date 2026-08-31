@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@moirasia/ui-css": decodeURIComponent(new URL("../../packages/ui-css", import.meta.url).pathname),
+      "@moirasia/ui-css": decodeURIComponent(new URL("../../../packages/ui-css", import.meta.url).pathname),
     },
   },
   clearScreen: false,

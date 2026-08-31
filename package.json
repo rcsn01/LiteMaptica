@@ -12,7 +12,7 @@
     "check": "bun run test && bun run build && CARGO_TARGET_DIR=.build/target cargo check --manifest-path src-tauri/Cargo.toml && PYTHONPATH=engine python3 -m unittest discover -s engine/tests -v"
   },
   "dependencies": {
-    "@moirasia/ui-css": "file:../../packages/ui-css",
+    "@moirasia/ui-css": "file:../../../packages/ui-css",
     "@tauri-apps/api": "^2.8.0",
     "@tauri-apps/plugin-dialog": "^2.4.0",
     "@types/three": "^0.179.0",
